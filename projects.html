@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dinesh - Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" class="rel" />
+  <link rel="icon" href="assests/icon.png" class="rel" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" class="rel" />
+</head>
+
+<body>
+  <!-- <div id="preloader"></div> -->
+  <header>
+    <nav class="navbar">
+      <div class="namelogo">
+        <img src="assests/dinesh.JPG">
+        <div class="left">&nbsp;Dinesh's Portfolio</div>
+      </div>
+      <div class="right">
+        <ul class="navbar-menu">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="services.html">Services</a>
+          </li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="navbar-toggle">
+        <button id="menu-toggle"><i class="fa-solid fa-list"></i></button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1 class="heading">Latest Projects</h1>
+    </section>
+    <section class="con-video">
+
+
+      <div class="content">
+        <div class="firstSec">
+          <video loop src="" alt="simon" controls poster="assests/food.png">
+        </div>
+        <div class="secondSec" id="project-details">
+          <h2>Food Recipe Guide Application</h2><br>
+          <p>
+           The Food Recipe Guide Application is a web-based project developed using HTML, CSS, and JavaScript. The application allows users to explore a wide variety of recipes with detailed information such as ingredients and preparation steps. It integrates a public Recipe API to fetch real-time recipe data, enabling dynamic content updates. Features like recipe search, category-based browsing, and interactive UI elements were implemented to enhance usability. The project focuses on a responsive design, clean user interface, and smooth user experience, making it easy for users to discover and learn new recipes efficiently.
+          </p>
+
+
+          <div class="buttons">
+            <button class="source-btn"><a href="https://github.com/vankam-dinesh/FOOD_MAKING.git">Source</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 140px;"></div>
+      <div class="content">
+        <div class="firstSec">
+          <video loop src="" alt="simon" controls poster="assests/hospital.png">
+        </div>
+        <div class="secondSec" id="project-details">
+          <h2>Hospital Management System</h2><br>
+          <p>The Hospital Management System is a console-based application developed using Java and MySQL to manage hospital operations efficiently. The system allows users to add and view patient details, manage doctor information, and book appointments while ensuring data consistency. It uses JDBC for database connectivity and performs CRUD operations through secure Prepared Statements. A well-structured relational database design with foreign key constraints is implemented to maintain data integrity. The project emphasizes modular programming, exception handling, and clean backend logic, serving as a strong foundation for understanding Java–MySQL integration and database-driven application development.
+          </p>
+          <div class="buttons">
+            <button class="source-btn"><a href="https://github.com/vankam-dinesh/Hospital_managment.git">Source</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="firstSec">
+          <!-- video autoplay -->
+          <video loop src="" alt="" controls poster="assests/banking system.png">
+        </div>
+        <div class="secondSec">
+          <h2>Banking System</h2><br>
+          <p>The Banking System is a console-based application developed using Java and MySQL to perform essential banking operations efficiently. The system supports functionalities such as account creation, balance inquiry, deposits, withdrawals, and transaction tracking. It uses JDBC for secure database connectivity and implements CRUD operations through Prepared Statements to prevent SQL injection. A relational database design is used to ensure data consistency and accuracy of transactions. The project focuses on object-oriented programming principles, exception handling, and modular code structure, providing a strong understanding of banking workflows and Java–database integration.</p>
+          <div class="buttons">
+            <button class="source-btn"><a href="https://github.com/vankam-dinesh/Banking-System.git">Source</a></button>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+  </main>
+
+  <!-- SLIDE TO TOP -->
+  <button id="scrollToTop" class="fixed-btn scroll-top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Chatbot Button -->
+  <section id="chatbotContainer">
+    <div class="chatbot-icon" onclick="toggleChatbot()">💬</div>
+
+    <!-- Chatbot Container -->
+    <div class="chatbot-container">
+      <div class="chatbot-header">
+        Chatbot
+        <span class="close-btn" onclick="toggleChatbot()">×</span>
+      </div>
+      <div class="chatbot-messages" id="chatbotMessages">
+        <div class="bot-message">Hello! How can I help you? 😊</div>
+      </div>
+      <div class="chatbot-input">
+        <input type="text" id="userInput" placeholder="Type a message..." onkeypress="handleKeyPress(event)" />
+        <button onclick="sendMessage()">➤</button>
+      </div>
+    </div>
+  </section>   
+
+  <footer>
+    <div class="footer">
+      <div class="footer-container">
+        <!-- Branding Section with Social Media Links -->
+        <div class="footer-section footer-brand">
+          <h3>Dinesh's Developer Portfolio</h3>
+          <p>Turning ideas into reality, one line of code at a time.</p>
+          <div class="footer-social">
+            <ul>
+              <li><a href="https://github.com/vankam-dinesh" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/dinesh-vankam-a7630b354/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a></li>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="footer-section footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="services.html"><i class="fa fa-cogs"></i> Services</a></li>
+            <li><a href="projects.html"><i class="fa fa-briefcase"></i> Projects</a></li>
+            <li><a href="about.html"><i class="fa fa-user"></i> About</a></li>
+            <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Information Section -->
+        <div class="footer-section footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fa fa-phone"></i> +91 7981781303</p>
+          <p><i class="fa fa-envelope"></i> dineshvankam56@gmail.com</p>
+          <p><i class="fa fa-map-marker"></i> Andhrapradhesh,Guntakal,India</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright &copy; dineshsportfolio.com | All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
