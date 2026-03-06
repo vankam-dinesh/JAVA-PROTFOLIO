@@ -4,7 +4,7 @@
 # Personal Portfolio Website
 
 Immerse yourself in the embodiment of my professional identity through the meticulously crafted personal portfolio website I've developed using HTML, CSS, and JavaScript. This digital canvas not only showcases my technical prowess but also encapsulates my creative spirit, offering a comprehensive glimpse into my skills, experiences, and aspirations.
-
+                                               
 ## Homepage
 
 The homepage sets the tone with a visually striking design, harmonizing colors and typography to convey a sense of cohesion and professionalism. Navigating through the site is an intuitive experience, thanks to the fluidity achieved through CSS animations and transitions. The responsive layout ensures a seamless exploration, adapting effortlessly to various devices and screen sizes.
